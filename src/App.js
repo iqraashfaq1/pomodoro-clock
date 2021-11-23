@@ -1,9 +1,13 @@
 import React from 'react'
+import { CountdownCircleTimer } from 'react-countdown-circle-timer'
+import SetPomodora from './Components/SetPomodora'
 
 const App = () => {
   return (
     <div>
-      hello
+      {/* hello
+      <SetPomodora/> */}
+      <CountdownCircleTimer/>
     </div>
   )
 }
